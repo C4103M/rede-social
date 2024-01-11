@@ -1,0 +1,15 @@
+CREATE TABLE `php01`.`usuarios` (
+`codigo` INT(11) NOT NULL AUTO_INCREMENT , 
+`usuario` VARCHAR(50) NOT NULL , 
+`email` VARCHAR(100) NOT NULL , 
+`senha` VARCHAR(32) NOT NULL , 
+PRIMARY KEY (`codigo`)) ENGINE = InnoDB;
+
+
+
+CREATE TABLE usuarios_seguidores(
+    id_usuario_seguidor int not null PRIMARY KEY AUTO_INCREMENT,
+    id_usuario int not null,
+    seguindo_id_usuario int not null,
+    data_registro datetime DEFAULT CURRENT_TIMESTAMP
+  );

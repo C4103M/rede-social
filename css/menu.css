@@ -1,0 +1,121 @@
+header {
+    /* background-color: hsla(0, 0%, 7%, 0.302); */
+    background-color: #353b50;
+    height: auto;
+    width: 100%;
+    display: block;
+    color: #ffff;
+}
+nav {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+.logo {
+    padding: 8px 10px 10px 20px;
+    width: 75px;
+}
+#form {
+    display: none;
+}
+nav > a {
+    text-decoration: none;
+    color: #ffff;
+    position: absolute;
+    right: 30px;
+}
+ 
+.input {
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid black ;
+    margin-right: 20px;
+    background-color: #454d6b;
+    /* color: #ffff;     */
+}
+.e1, .e2{
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+}
+.e1 {
+    position: absolute;
+    right: 0;
+}
+button{
+    margin: 5px;
+}
+form > p {
+    display: flex;
+    align-items: center;
+}
+.input-btn {
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+}
+.menu {
+    text-decoration: none;
+    color: #ffff;
+    display: none;
+    align-items: center;
+}
+#input-close {
+    display: none;
+}
+.opc {
+    display: none;
+}
+.menu-mobile {
+    display: none;
+}
+
+.princ {
+    display: flex;
+    height: 70px;
+}
+#expandir, #expandir2 {
+    background-color: transparent;
+    border: none;
+}
+#expandir2 {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .menu-mobile {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+ 
+    .logo {
+        position: absolute; 
+        margin: 2px auto;
+        width: 50px;
+    }
+    nav {
+        display: none;
+    }
+    .princ {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+    .opc {
+        width: 100vw;
+        display: none;
+        /* display: flex; */
+        align-items: center;
+        flex-direction: column;
+    }
+    a {
+        color: white;
+    }
+    .input {
+        width: 200px;
+    }
+}

@@ -1,0 +1,19 @@
+﻿
+
+----------------
+Arquivo 07
+*Alterando e-mail
+*inclusão da formatando no fildeset
+*inserindo fildset em todos os formulários
+*Melhorando formatação do arquivo minhas_postagens.php
+*Utilizando formatação da data no arquivo minhas_postagens.php
+*Pesquisando usuários
+*seguindo usuários
+*Deixando de seguir usuários
+
+
+Arquivo 08
+*Pesquisando usuários e tratando a consulta. (Ex.: Não mostrar o nome de quem está pesquisando)
+*Tratando seguir e Deixar de seguir usuário
+*Mostrando a quantidade de seguidores do usuário
+*Mostranto as postagens de quem estamos seguindo.
